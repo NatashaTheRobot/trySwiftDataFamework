@@ -6,6 +6,8 @@
 //  Copyright © 2016 NatashaTheRobot. All rights reserved.
 //
 
+#if os(iOS)
+
 import Contacts
 
 public struct Venue {
@@ -70,3 +72,5 @@ public extension Venue {
             username: "251W30_Internal",
             password: "Slake251"))
 }
+
+#endif

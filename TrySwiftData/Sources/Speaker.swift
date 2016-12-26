@@ -7,7 +7,9 @@
 //
 
 import RealmSwift
+#if os(iOS)
 import UIKit
+#endif
 
 public class Speaker: Object {
     open dynamic var id: Int = 0
@@ -32,6 +34,7 @@ public class Speaker: Object {
         return realm.objects(Speaker.self).filter("hidden == false").sorted(byProperty: "name")
     }
     
+    #if os(iOS)
     public func getImage() -> UIImage {
         let defaultImage = UIImage(named: "tryLogo")!
         
@@ -44,6 +47,7 @@ public class Speaker: Object {
         
         return defaultImage
     }
+    #endif
 }
 
 public extension Speaker {

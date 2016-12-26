@@ -79,7 +79,7 @@ s.homepage     = "https://tryswift.co"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/TrySwiftData.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/tryswift/trySwiftDataFamework.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,8 @@ s.homepage     = "https://tryswift.co"
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "TrySwiftData/Sources/**"
+#  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -132,6 +132,6 @@ s.homepage     = "https://tryswift.co"
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency 'RealmSwift', '~> 2.1.1'
 
 end

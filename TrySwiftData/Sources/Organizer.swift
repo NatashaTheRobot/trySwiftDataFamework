@@ -6,6 +6,7 @@
 //  Copyright © 2016 NatashaTheRobot. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 public struct Organizer {
@@ -24,3 +25,4 @@ public extension Organizer {
             bio: "Natasha is an iOS developer by day and a robot by night. She blogs about Swift, WatchOS, and iOS development on her blog, natashatherobot.com, curates a fast-growing weekly Swift newsletter, This Week in Swift, and organizes the try! Swift Conference around the world (including this one!). She's currently living the digital nomad life as her alter identity: @NatashaTheNomad.")
     ]
 }
+#endif

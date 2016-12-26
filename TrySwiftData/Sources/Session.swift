@@ -109,6 +109,7 @@ public extension Session {
             }
         }
         
+        #if os(iOS)
         public var logo: UIImage {
             let defaultImage = UIImage(named: "tryLogo")!
             switch self {
@@ -135,6 +136,7 @@ public extension Session {
                 return UIImage(named: "airplanemode-short")!
             }
         }
+        #endif
         
         public var location: String {
             switch self {

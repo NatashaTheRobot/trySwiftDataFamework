@@ -6,15 +6,13 @@
 //  Copyright © 2016 NatashaTheRobot. All rights reserved.
 //
 
-import UIKit
-
 public struct Sponsor {
     
     public let name: String
     public let url: String
     public let displayURL: String
     public let twitter: String?
-    public let logo: UIImage?
+    public let logo: String?
     public let level: Level
     
     public enum Level: Int, CustomStringConvertible {
@@ -47,7 +45,7 @@ public extension Sponsor {
             url: "http://www.ibm.com/",
             displayURL: "ibm.com",
             twitter: "IBM",
-            logo: UIImage(named: "ibm"),
+            logo: "ibm",
             level: .platinum)
     ]
     
@@ -57,63 +55,63 @@ public extension Sponsor {
             url: "https://buddybuild.com",
             displayURL: "buddybuild.com",
             twitter: "buddybuild",
-            logo: UIImage(named: "buddybuild"),
+            logo: "buddybuild",
             level: .gold),
         Sponsor(
             name: "contentful",
             url: "https://www.contentful.com",
             displayURL: "contentful.com",
             twitter: "contentful",
-            logo: UIImage(named: "contentful"),
+            logo: "contentful",
             level: .gold),
         Sponsor(
             name: "Domo",
             url: "https://www.domo.com",
             displayURL: "domo.com",
             twitter: "Domotalk",
-            logo: UIImage(named: "domo"),
+            logo: "domo",
             level: .gold),
         Sponsor(
             name: "Firebase",
             url: "https://www.firebase.com/",
             displayURL: "firebase.com",
             twitter: "Firebase",
-            logo: UIImage(named: "firebase"),
+            logo: "firebase",
             level: .gold),
         Sponsor(
             name: "Hired",
             url: "https://hired.com/",
             displayURL: "hired.com",
             twitter: "Hired_HQ",
-            logo: UIImage(named: "hired"),
+            logo: "hired",
             level: .gold),
         Sponsor(
             name: "Lyft",
             url: "https://www.lyft.com",
             displayURL: "lyft.com",
             twitter: "lyft",
-            logo: UIImage(named: "lyft"),
+            logo: "lyft",
             level: .gold),
         Sponsor(
             name: "Perfect.org",
             url: "https://perfect.org",
             displayURL: "perfect.org",
             twitter: "perfectlysoft",
-            logo: UIImage(named: "perfectorg"),
+            logo: "perfectorg",
             level: .gold),
         Sponsor(
             name: "ThoughtWorks",
             url: "https://www.thoughtworks.com",
             displayURL: "thoughtworks.com",
             twitter: "thoughtworks",
-            logo: UIImage(named: "thoughtworks"),
+            logo: "thoughtworks",
             level: .gold),
         Sponsor(
             name: "Twilio",
             url: "https://www.twilio.com",
             displayURL: "twilio.com",
             twitter: "twilio",
-            logo: UIImage(named: "twilio"),
+            logo: "twilio",
             level: .gold)
     ]
     
@@ -123,14 +121,14 @@ public extension Sponsor {
             url: "https://www.aol.com/",
             displayURL: "aol.com",
             twitter: "AOL",
-            logo: UIImage(named: "aol"),
+            logo: "aol",
             level: .silver),
         Sponsor(
             name: "Small Planet",
             url: "https://www.smallplanet.com/",
             displayURL: "smallplanet.com",
             twitter: "smallplanetapps",
-            logo: UIImage(named: "smallplanet"),
+            logo: "smallplanet",
             level: .silver)
     ]
     
@@ -140,70 +138,70 @@ public extension Sponsor {
             url: "https://www.dominos.com",
             displayURL: "dominos.com",
             twitter: "dominos",
-            logo: UIImage(named: "dominos"),
+            logo: "dominos",
             level: .diversity),
         Sponsor(
             name: "Etsy",
             url: "https://www.etsy.com",
             displayURL: "etsy.com",
             twitter: "Etsy",
-            logo: UIImage(named: "etsy"),
+            logo: "etsy",
             level: .diversity),
         Sponsor(
             name: "Instagram",
             url: "https://www.instagram.com",
             displayURL: "instagram.com",
             twitter: "instagram",
-            logo: UIImage(named: "instagram"),
+            logo: "instagram",
             level: .diversity),
         Sponsor(
             name: "Meetup",
             url: "https://www.meetup.com",
             displayURL: "meetup.com",
             twitter: "Meetup",
-            logo: UIImage(named: "meetup"),
+            logo: "meetup",
             level: .diversity),
         Sponsor(
             name: "The New York Times Developers",
             url: "https://developer.nytimes.com/",
             displayURL: "developer.nytimes.com",
             twitter: "nytdevs",
-            logo: UIImage(named: "nyt"),
+            logo: "nyt",
             level: .diversity),
         Sponsor(
             name: "Swift Studies",
             url: "http://www.swift-studies.com",
             displayURL: "swift-studies.com",
             twitter: "Swift_Studies",
-            logo: UIImage(named: "swift_studies"),
+            logo: "swift_studies",
             level: .diversity),
         Sponsor(
             name: "Technically Speaking",
             url: "https://tinyletter.com/techspeak",
             displayURL: "tinyletter.com/techspeak",
             twitter: "techspeakdigest",
-            logo: UIImage(named: "technically_speaking"),
+            logo: "technically_speaking",
             level: .diversity),
         Sponsor(
             name: "thoughtbot",
             url: "https://thoughtbot.com/services/ios-development",
             displayURL: "thoughtbot.com",
             twitter: "thoughtbot",
-            logo: UIImage(named: "thoughtbot"),
+            logo: "thoughtbot",
             level: .diversity),
         Sponsor(
             name: "Twitter",
             url: "https://twitter.com",
             displayURL: "twitter.com",
             twitter: "twitter",
-            logo: UIImage(named: "twitter"),
+            logo: "twitter",
             level: .diversity),
         Sponsor(
             name: "XO Group",
             url: "https://xogroupinc.com/",
             displayURL: "xogroupinc.com",
             twitter: "XOGroupInc",
-            logo: UIImage(named: "xogroup"),
+            logo: "xogroup",
             level: .diversity)
     ]
     
@@ -213,7 +211,7 @@ public extension Sponsor {
             url: "https://www.jetbrains.com",
             displayURL: "jetbrains.com",
             twitter: "jetbrains",
-            logo: UIImage(named: "jetbrains"),
+            logo: "jetbrains",
             level: .student)
     ]
     
@@ -223,49 +221,49 @@ public extension Sponsor {
             url: "http://airplanemo.de",
             displayURL: "airplanemo.de",
             twitter: "airplanemode",
-            logo: UIImage(named: "airplane_mode"),
+            logo: "airplane_mode",
             level: .event),
         Sponsor(
             name: "General Assembly",
             url: "https://generalassemb.ly/",
             displayURL: "generalassemb.ly",
             twitter: "GA",
-            logo: UIImage(named: "ga"),
+            logo: "ga",
             level: .event),
         Sponsor(
             name: "LiuLiShuo",
             url: "https://www.liulishuo.com",
             displayURL: "liulishuo.com",
             twitter: nil,
-            logo: UIImage(named: "liulishuo"),
+            logo: "liulishuo",
             level: .event),
         Sponsor(
             name: "Realm",
             url: "https://realm.io",
             displayURL: "realm.io",
             twitter: "realm",
-            logo: UIImage(named: "realm"),
+            logo: "realm",
             level: .event),
         Sponsor(
             name: "SoundCloud",
             url: "https://soundcloud.com/",
             displayURL: "soundcloud.com",
             twitter: "SoundCloud",
-            logo: UIImage(named: "soundcloud"),
+            logo: "soundcloud",
             level: .event),
         Sponsor(
             name: "SpotHero",
             url: "https://spothero.com",
             displayURL: "spothero.com",
             twitter: "SpotHero",
-            logo: UIImage(named: "spothero"),
+            logo: "spothero",
             level: .event),
         Sponsor(
             name: "Stanfy",
             url: "https://stanfy.com",
             displayURL: "stanfy.com",
             twitter: "stanfy",
-            logo: UIImage(named: "stanfy"),
+            logo: "stanfy",
             level: .event)
     ]
 }
