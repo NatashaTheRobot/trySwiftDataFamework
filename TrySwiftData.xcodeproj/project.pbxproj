@@ -10,6 +10,17 @@
 		FA276E0F1E118B30008C9AAD /* TrySwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA276E051E118B2F008C9AAD /* TrySwiftData.framework */; };
 		FA276E141E118B30008C9AAD /* TrySwiftDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E131E118B30008C9AAD /* TrySwiftDataTests.swift */; };
 		FA276E161E118B30008C9AAD /* TrySwiftData.h in Headers */ = {isa = PBXBuildFile; fileRef = FA276E081E118B2F008C9AAD /* TrySwiftData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA276E291E118E1A008C9AAD /* ChangeNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E201E118E1A008C9AAD /* ChangeNotificationManager.swift */; };
+		FA276E2A1E118E1A008C9AAD /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E211E118E1A008C9AAD /* Conference.swift */; };
+		FA276E2B1E118E1A008C9AAD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E221E118E1A008C9AAD /* Event.swift */; };
+		FA276E2C1E118E1A008C9AAD /* Organizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E231E118E1A008C9AAD /* Organizer.swift */; };
+		FA276E2D1E118E1A008C9AAD /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E241E118E1A008C9AAD /* Presentation.swift */; };
+		FA276E2E1E118E1A008C9AAD /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E251E118E1A008C9AAD /* Session.swift */; };
+		FA276E2F1E118E1A008C9AAD /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E261E118E1A008C9AAD /* Speaker.swift */; };
+		FA276E301E118E1A008C9AAD /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E271E118E1A008C9AAD /* Sponsor.swift */; };
+		FA276E311E118E1A008C9AAD /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E281E118E1A008C9AAD /* Venue.swift */; };
+		FA276E331E118E30008C9AAD /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FA276E321E118E30008C9AAD /* Config.xcconfig */; };
+		FA276E341E118E9E008C9AAD /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FA276E321E118E30008C9AAD /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,16 @@
 		FA276E0E1E118B30008C9AAD /* TrySwiftDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA276E131E118B30008C9AAD /* TrySwiftDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftDataTests.swift; sourceTree = "<group>"; };
 		FA276E151E118B30008C9AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA276E201E118E1A008C9AAD /* ChangeNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeNotificationManager.swift; sourceTree = "<group>"; };
+		FA276E211E118E1A008C9AAD /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
+		FA276E221E118E1A008C9AAD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FA276E231E118E1A008C9AAD /* Organizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organizer.swift; sourceTree = "<group>"; };
+		FA276E241E118E1A008C9AAD /* Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		FA276E251E118E1A008C9AAD /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		FA276E261E118E1A008C9AAD /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		FA276E271E118E1A008C9AAD /* Sponsor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
+		FA276E281E118E1A008C9AAD /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		FA276E321E118E30008C9AAD /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +92,10 @@
 		FA276E071E118B2F008C9AAD /* TrySwiftData */ = {
 			isa = PBXGroup;
 			children = (
+				FA276E1F1E118E1A008C9AAD /* Sources */,
 				FA276E081E118B2F008C9AAD /* TrySwiftData.h */,
 				FA276E091E118B2F008C9AAD /* Info.plist */,
+				FA276E321E118E30008C9AAD /* Config.xcconfig */,
 			);
 			path = TrySwiftData;
 			sourceTree = "<group>";
@@ -84,6 +107,22 @@
 				FA276E151E118B30008C9AAD /* Info.plist */,
 			);
 			path = TrySwiftDataTests;
+			sourceTree = "<group>";
+		};
+		FA276E1F1E118E1A008C9AAD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA276E201E118E1A008C9AAD /* ChangeNotificationManager.swift */,
+				FA276E211E118E1A008C9AAD /* Conference.swift */,
+				FA276E221E118E1A008C9AAD /* Event.swift */,
+				FA276E231E118E1A008C9AAD /* Organizer.swift */,
+				FA276E241E118E1A008C9AAD /* Presentation.swift */,
+				FA276E251E118E1A008C9AAD /* Session.swift */,
+				FA276E261E118E1A008C9AAD /* Speaker.swift */,
+				FA276E271E118E1A008C9AAD /* Sponsor.swift */,
+				FA276E281E118E1A008C9AAD /* Venue.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA276E331E118E30008C9AAD /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA276E341E118E9E008C9AAD /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA276E291E118E1A008C9AAD /* ChangeNotificationManager.swift in Sources */,
+				FA276E2B1E118E1A008C9AAD /* Event.swift in Sources */,
+				FA276E2E1E118E1A008C9AAD /* Session.swift in Sources */,
+				FA276E2A1E118E1A008C9AAD /* Conference.swift in Sources */,
+				FA276E311E118E1A008C9AAD /* Venue.swift in Sources */,
+				FA276E301E118E1A008C9AAD /* Sponsor.swift in Sources */,
+				FA276E2F1E118E1A008C9AAD /* Speaker.swift in Sources */,
+				FA276E2D1E118E1A008C9AAD /* Presentation.swift in Sources */,
+				FA276E2C1E118E1A008C9AAD /* Organizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +270,10 @@
 /* Begin XCBuildConfiguration section */
 		FA276E171E118B30008C9AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA276E321E118E30008C9AAD /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -259,22 +311,28 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchos watchossimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
 		FA276E181E118B30008C9AAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA276E321E118E30008C9AAD /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -306,20 +364,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchos watchossimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
 		FA276E1A1E118B30008C9AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -338,6 +401,7 @@
 		FA276E1B1E118B30008C9AAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,8 +420,9 @@
 		FA276E1D1E118B30008C9AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrySwiftDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NatashaTheRobot.TrySwiftDataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -367,8 +432,9 @@
 		FA276E1E1E118B30008C9AAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrySwiftDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NatashaTheRobot.TrySwiftDataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

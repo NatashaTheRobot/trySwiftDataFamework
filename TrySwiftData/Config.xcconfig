@@ -1,0 +1,9 @@
+//
+//  Config.xcconfig
+//  TrySwiftData
+//
+//  Created by Natasha Murashev on 12/26/16.
+//  Copyright © 2016 NatashaTheRobot. All rights reserved.
+//
+
+TARGETED_DEVICE_FAMILY = 1,2,3,4
