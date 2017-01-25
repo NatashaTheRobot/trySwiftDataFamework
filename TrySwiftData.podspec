@@ -132,6 +132,6 @@ s.homepage     = "https://tryswift.co"
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency 'RealmSwift', '~> 2.1.1'
+  s.dependency 'RealmSwift', '~> 2.3.0'
 
 end

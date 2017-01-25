@@ -31,7 +31,7 @@ public class Speaker: Object {
     
     public class var speakers: Results<Speaker> {
         let realm = try! Realm()
-        return realm.objects(Speaker.self).filter("hidden == false").sorted(byProperty: "name")
+        return realm.objects(Speaker.self).filter("hidden == false").sorted(byKeyPath: "name")
     }
     
     #if os(iOS)
