@@ -10,8 +10,21 @@ import UIKit
 import TrySwiftData
 import RealmSwift
 
-public func generateRealm(named name: String) {
-    
+public func generateRealm(named name: String) -> Realm {
+    let exportPath = NSTemporaryDirectory()
+    let realmPath = exportPath.appending(name)
+
+    // Delete previous Realm file
+    if FileManager.default.fileExists(atPath: realmPath) {
+        try! FileManager.default.removeItem(atPath: realmPath)
+    }
+
+    // Create new Realm file at path
+    let objectTypes: [Object.Type] = [Conference.self, ConferenceDay.self, SessionBlock.self, Event.self, Presentation.self,
+                       Session.self, Location.self, Speaker.self, Sponsor.self, Venue.self]
+    let configuration = Realm.Configuration(fileURL: URL(string: realmPath), objectTypes: objectTypes)
+    let realm = try! Realm(configuration: configuration)
+    return realm
 }
 
 // taken from https://github.com/naoty/Timepiece

@@ -139,7 +139,7 @@ public let nyc2016Sessions: [String : Session] = [
         session.presentation = nyc2016Presentations[13]
         return session
     }(),
-    "day2AmyOfficeHours" : {
+    "day2ErikOfficeHours" : {
         let session = Session()
         session.type = .officeHours
         session.presentation = nyc2016Presentations[18]
@@ -147,7 +147,7 @@ public let nyc2016Sessions: [String : Session] = [
         return session
     }(),
 //---------------------------------------------------------
-    "day2ExtendingSpeech" : {
+    "day2SpeechRecog" : {
         let session = Session()
         session.type = .talk
         session.location = nyc2016Locations["auditorium"]
@@ -242,7 +242,7 @@ public let nyc2016Sessions: [String : Session] = [
         session.type = .party
         session.title = "🍕 & 🎸 Party with Airplane Mode"
         session.imageName = "airplanemode-short"
-        //session.venue = ...
+        session.venue = nyc2016Venues["americanbeauty"]
         return session
     }(),
 
@@ -408,21 +408,6 @@ public let nyc2016Sessions: [String : Session] = [
         return session
     }(),
 //---------------------------------------------------------
-    "day3LanguageApp" : {
-        let session = Session()
-        session.type = .talk
-        session.location = nyc2016Locations["auditorium"]
-        session.presentation = nyc2016Presentations[17]
-        return session
-    }(),
-    "day3KatsumiOfficeHours" : {
-        let session = Session()
-        session.type = .officeHours
-        session.presentation = nyc2016Presentations[21]
-        session.location = nyc2016Locations["atrium"]
-        return session
-    }(),
-//---------------------------------------------------------
     "day3SecondCoffee" : {
         let session = Session()
         session.type = .coffeeBreak
@@ -430,7 +415,7 @@ public let nyc2016Sessions: [String : Session] = [
         return session
     }(),
 //---------------------------------------------------------
-    "day3LanguageApp" : {
+    "day3RxSwift" : {
         let session = Session()
         session.type = .talk
         session.location = nyc2016Locations["auditorium"]
