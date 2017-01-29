@@ -6,20 +6,14 @@
 //  Copyright © 2016 NatashaTheRobot. All rights reserved.
 //
 
-public struct Conference {
-    public let name: String
-    public let twitter: String
-    public let imageName: String?
-    public let imageURL: String?
-    public let description: String
-}
+import RealmSwift
 
-public extension Conference {
-    
-    static let trySwift = Conference(
-        name: "try! Conference",
-        twitter: "tryswiftnyc",
-        imageName: "logo",
-        imageURL: nil,
-        description: "try! Conference is an immersive community gathering about Swift Language Best Practices, Application Development in Swift, Server-Side Swift, Open Source Swift, and the Swift Community, taking place in New York City on September 1st and 2nd, 2016.")
+public class Conference: Object {
+    open dynamic var name: String?
+    open dynamic var twitter: String?
+    open dynamic var imageName: String?
+    open dynamic var imageURL: String?
+    open dynamic var conferenceDescription: String?
+    open dynamic var venue: Venue?
+    open dynamic var organizer: Speaker?
 }

@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225BCAF01E3B984A0017FBC9 /* GenerateCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCAED1E3B984A0017FBC9 /* GenerateCommon.swift */; };
+		225BCAF11E3B984A0017FBC9 /* NYC2016GenerateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCAEF1E3B984A0017FBC9 /* NYC2016GenerateData.swift */; };
+		225BCAF51E3BA9310017FBC9 /* NYC2016Presentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCAF41E3BA9310017FBC9 /* NYC2016Presentations.swift */; };
+		225BCAF71E3C410A0017FBC9 /* ConferenceDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCAF61E3C410A0017FBC9 /* ConferenceDay.swift */; };
+		225BCAF91E3C41870017FBC9 /* SessionBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCAF81E3C41870017FBC9 /* SessionBlock.swift */; };
+		225BCAFB1E3C47490017FBC9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCAFA1E3C47490017FBC9 /* Session.swift */; };
+		225BCAFF1E3C4C020017FBC9 /* NYC2016Conferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCAFE1E3C4C020017FBC9 /* NYC2016Conferences.swift */; };
+		225BCB011E3C4C360017FBC9 /* NYC2016Speakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB001E3C4C360017FBC9 /* NYC2016Speakers.swift */; };
+		225BCB031E3C93060017FBC9 /* NYC2016Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB021E3C93060017FBC9 /* NYC2016Events.swift */; };
+		225BCB051E3CABD70017FBC9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB041E3CABD70017FBC9 /* Location.swift */; };
+		225BCB071E3DBDF90017FBC9 /* NYC2016ConferenceDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB061E3DBDF90017FBC9 /* NYC2016ConferenceDays.swift */; };
+		225BCB0B1E3DC2BE0017FBC9 /* NYC2016SessionBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB0A1E3DC2BE0017FBC9 /* NYC2016SessionBlocks.swift */; };
+		225BCB0D1E3DD6CE0017FBC9 /* NYC2016Sponsors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB0C1E3DD6CE0017FBC9 /* NYC2016Sponsors.swift */; };
+		225BCB0F1E3DDE140017FBC9 /* NYC2016Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB0E1E3DDE140017FBC9 /* NYC2016Sessions.swift */; };
+		225BCB111E3DE8170017FBC9 /* NYC2016Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB101E3DE8170017FBC9 /* NYC2016Locations.swift */; };
+		225BCB131E3DFD240017FBC9 /* NYC2016Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */; };
+		7823C4FC9E139EB5691B74D9 /* Pods_TrySwiftDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D0DFE8BFFEEEA7588AAC3 /* Pods_TrySwiftDataTests.framework */; };
+		E411BF3BED8F75825AC7BD7A /* Pods_TrySwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E356824A1BEF0FBBEEB7C41A /* Pods_TrySwiftData.framework */; };
 		FA276E0F1E118B30008C9AAD /* TrySwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA276E051E118B2F008C9AAD /* TrySwiftData.framework */; };
 		FA276E141E118B30008C9AAD /* TrySwiftDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E131E118B30008C9AAD /* TrySwiftDataTests.swift */; };
 		FA276E161E118B30008C9AAD /* TrySwiftData.h in Headers */ = {isa = PBXBuildFile; fileRef = FA276E081E118B2F008C9AAD /* TrySwiftData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA276E291E118E1A008C9AAD /* ChangeNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E201E118E1A008C9AAD /* ChangeNotificationManager.swift */; };
 		FA276E2A1E118E1A008C9AAD /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E211E118E1A008C9AAD /* Conference.swift */; };
 		FA276E2B1E118E1A008C9AAD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E221E118E1A008C9AAD /* Event.swift */; };
-		FA276E2C1E118E1A008C9AAD /* Organizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E231E118E1A008C9AAD /* Organizer.swift */; };
 		FA276E2D1E118E1A008C9AAD /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E241E118E1A008C9AAD /* Presentation.swift */; };
-		FA276E2E1E118E1A008C9AAD /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E251E118E1A008C9AAD /* Session.swift */; };
 		FA276E2F1E118E1A008C9AAD /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E261E118E1A008C9AAD /* Speaker.swift */; };
 		FA276E301E118E1A008C9AAD /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E271E118E1A008C9AAD /* Sponsor.swift */; };
 		FA276E311E118E1A008C9AAD /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA276E281E118E1A008C9AAD /* Venue.swift */; };
@@ -34,18 +49,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225BCAED1E3B984A0017FBC9 /* GenerateCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommon.swift; sourceTree = "<group>"; };
+		225BCAEF1E3B984A0017FBC9 /* NYC2016GenerateData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016GenerateData.swift; sourceTree = "<group>"; };
+		225BCAF41E3BA9310017FBC9 /* NYC2016Presentations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Presentations.swift; sourceTree = "<group>"; };
+		225BCAF61E3C410A0017FBC9 /* ConferenceDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDay.swift; sourceTree = "<group>"; };
+		225BCAF81E3C41870017FBC9 /* SessionBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionBlock.swift; sourceTree = "<group>"; };
+		225BCAFA1E3C47490017FBC9 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		225BCAFE1E3C4C020017FBC9 /* NYC2016Conferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Conferences.swift; sourceTree = "<group>"; };
+		225BCB001E3C4C360017FBC9 /* NYC2016Speakers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Speakers.swift; sourceTree = "<group>"; };
+		225BCB021E3C93060017FBC9 /* NYC2016Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Events.swift; sourceTree = "<group>"; };
+		225BCB041E3CABD70017FBC9 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		225BCB061E3DBDF90017FBC9 /* NYC2016ConferenceDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016ConferenceDays.swift; sourceTree = "<group>"; };
+		225BCB0A1E3DC2BE0017FBC9 /* NYC2016SessionBlocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016SessionBlocks.swift; sourceTree = "<group>"; };
+		225BCB0C1E3DD6CE0017FBC9 /* NYC2016Sponsors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Sponsors.swift; sourceTree = "<group>"; };
+		225BCB0E1E3DDE140017FBC9 /* NYC2016Sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Sessions.swift; sourceTree = "<group>"; };
+		225BCB101E3DE8170017FBC9 /* NYC2016Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Locations.swift; sourceTree = "<group>"; };
+		225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYC2016Venues.swift; path = "TrySwiftDataTests/RealmGeneration/NYC-2016/NYC2016Venues.swift"; sourceTree = SOURCE_ROOT; };
+		69C50BB2284E5199F2963775 /* Pods-TrySwiftData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData/Pods-TrySwiftData.release.xcconfig"; sourceTree = "<group>"; };
+		69E21355D797850E2AF046AE /* Pods-TrySwiftData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData/Pods-TrySwiftData.debug.xcconfig"; sourceTree = "<group>"; };
+		B17F7F5C3E6669C5B75F8B16 /* Pods-TrySwiftDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftDataTests/Pods-TrySwiftDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBD7E277032D545B2F1DFDFB /* Pods-TrySwiftDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftDataTests/Pods-TrySwiftDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E356824A1BEF0FBBEEB7C41A /* Pods_TrySwiftData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrySwiftData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D0DFE8BFFEEEA7588AAC3 /* Pods_TrySwiftDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrySwiftDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA276E051E118B2F008C9AAD /* TrySwiftData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrySwiftData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA276E081E118B2F008C9AAD /* TrySwiftData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrySwiftData.h; sourceTree = "<group>"; };
 		FA276E091E118B2F008C9AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA276E0E1E118B30008C9AAD /* TrySwiftDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA276E131E118B30008C9AAD /* TrySwiftDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftDataTests.swift; sourceTree = "<group>"; };
 		FA276E151E118B30008C9AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA276E201E118E1A008C9AAD /* ChangeNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeNotificationManager.swift; sourceTree = "<group>"; };
 		FA276E211E118E1A008C9AAD /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 		FA276E221E118E1A008C9AAD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		FA276E231E118E1A008C9AAD /* Organizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organizer.swift; sourceTree = "<group>"; };
 		FA276E241E118E1A008C9AAD /* Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
-		FA276E251E118E1A008C9AAD /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		FA276E261E118E1A008C9AAD /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		FA276E271E118E1A008C9AAD /* Sponsor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
 		FA276E281E118E1A008C9AAD /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
@@ -57,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E411BF3BED8F75825AC7BD7A /* Pods_TrySwiftData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,18 +100,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA276E0F1E118B30008C9AAD /* TrySwiftData.framework in Frameworks */,
+				7823C4FC9E139EB5691B74D9 /* Pods_TrySwiftDataTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225BCAEC1E3B984A0017FBC9 /* RealmGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				225BCAED1E3B984A0017FBC9 /* GenerateCommon.swift */,
+				225BCAEE1E3B984A0017FBC9 /* NYC-2016 */,
+			);
+			path = RealmGeneration;
+			sourceTree = "<group>";
+		};
+		225BCAEE1E3B984A0017FBC9 /* NYC-2016 */ = {
+			isa = PBXGroup;
+			children = (
+				225BCAEF1E3B984A0017FBC9 /* NYC2016GenerateData.swift */,
+				225BCAFE1E3C4C020017FBC9 /* NYC2016Conferences.swift */,
+				225BCB061E3DBDF90017FBC9 /* NYC2016ConferenceDays.swift */,
+				225BCB101E3DE8170017FBC9 /* NYC2016Locations.swift */,
+				225BCB0A1E3DC2BE0017FBC9 /* NYC2016SessionBlocks.swift */,
+				225BCB0E1E3DDE140017FBC9 /* NYC2016Sessions.swift */,
+				225BCB021E3C93060017FBC9 /* NYC2016Events.swift */,
+				225BCAF41E3BA9310017FBC9 /* NYC2016Presentations.swift */,
+				225BCB001E3C4C360017FBC9 /* NYC2016Speakers.swift */,
+				225BCB0C1E3DD6CE0017FBC9 /* NYC2016Sponsors.swift */,
+				225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */,
+			);
+			path = "NYC-2016";
+			sourceTree = "<group>";
+		};
+		626D5797816391ACCA93916A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69E21355D797850E2AF046AE /* Pods-TrySwiftData.debug.xcconfig */,
+				69C50BB2284E5199F2963775 /* Pods-TrySwiftData.release.xcconfig */,
+				BBD7E277032D545B2F1DFDFB /* Pods-TrySwiftDataTests.debug.xcconfig */,
+				B17F7F5C3E6669C5B75F8B16 /* Pods-TrySwiftDataTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABA2A178DEFEA874FB8BB665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E356824A1BEF0FBBEEB7C41A /* Pods_TrySwiftData.framework */,
+				F26D0DFE8BFFEEEA7588AAC3 /* Pods_TrySwiftDataTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA276DFB1E118B2F008C9AAD = {
 			isa = PBXGroup;
 			children = (
 				FA276E071E118B2F008C9AAD /* TrySwiftData */,
 				FA276E121E118B30008C9AAD /* TrySwiftDataTests */,
 				FA276E061E118B2F008C9AAD /* Products */,
+				626D5797816391ACCA93916A /* Pods */,
+				ABA2A178DEFEA874FB8BB665 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				FA276E131E118B30008C9AAD /* TrySwiftDataTests.swift */,
+				225BCAEC1E3B984A0017FBC9 /* RealmGeneration */,
 				FA276E151E118B30008C9AAD /* Info.plist */,
 			);
 			path = TrySwiftDataTests;
@@ -112,12 +198,13 @@
 		FA276E1F1E118E1A008C9AAD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FA276E201E118E1A008C9AAD /* ChangeNotificationManager.swift */,
 				FA276E211E118E1A008C9AAD /* Conference.swift */,
+				225BCAF61E3C410A0017FBC9 /* ConferenceDay.swift */,
+				225BCAF81E3C41870017FBC9 /* SessionBlock.swift */,
 				FA276E221E118E1A008C9AAD /* Event.swift */,
-				FA276E231E118E1A008C9AAD /* Organizer.swift */,
 				FA276E241E118E1A008C9AAD /* Presentation.swift */,
-				FA276E251E118E1A008C9AAD /* Session.swift */,
+				225BCAFA1E3C47490017FBC9 /* Session.swift */,
+				225BCB041E3CABD70017FBC9 /* Location.swift */,
 				FA276E261E118E1A008C9AAD /* Speaker.swift */,
 				FA276E271E118E1A008C9AAD /* Sponsor.swift */,
 				FA276E281E118E1A008C9AAD /* Venue.swift */,
@@ -143,10 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA276E191E118B30008C9AAD /* Build configuration list for PBXNativeTarget "TrySwiftData" */;
 			buildPhases = (
+				C1DBE99C4E4D0FF955E0B379 /* [CP] Check Pods Manifest.lock */,
 				FA276E001E118B2F008C9AAD /* Sources */,
 				FA276E011E118B2F008C9AAD /* Frameworks */,
 				FA276E021E118B2F008C9AAD /* Headers */,
 				FA276E031E118B2F008C9AAD /* Resources */,
+				3770F7C07D32BE830F513DED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA276E1C1E118B30008C9AAD /* Build configuration list for PBXNativeTarget "TrySwiftDataTests" */;
 			buildPhases = (
+				B63589F0AB9D897F8E6EE17D /* [CP] Check Pods Manifest.lock */,
 				FA276E0A1E118B30008C9AAD /* Sources */,
 				FA276E0B1E118B30008C9AAD /* Frameworks */,
 				FA276E0C1E118B30008C9AAD /* Resources */,
+				CBEC4445A53A980CE19E6052 /* [CP] Embed Pods Frameworks */,
+				118A1948F551D44C004EE655 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,20 +324,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		118A1948F551D44C004EE655 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrySwiftDataTests/Pods-TrySwiftDataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3770F7C07D32BE830F513DED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrySwiftData/Pods-TrySwiftData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B63589F0AB9D897F8E6EE17D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1DBE99C4E4D0FF955E0B379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBEC4445A53A980CE19E6052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrySwiftDataTests/Pods-TrySwiftDataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA276E001E118B2F008C9AAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA276E291E118E1A008C9AAD /* ChangeNotificationManager.swift in Sources */,
 				FA276E2B1E118E1A008C9AAD /* Event.swift in Sources */,
-				FA276E2E1E118E1A008C9AAD /* Session.swift in Sources */,
 				FA276E2A1E118E1A008C9AAD /* Conference.swift in Sources */,
+				225BCAF71E3C410A0017FBC9 /* ConferenceDay.swift in Sources */,
 				FA276E311E118E1A008C9AAD /* Venue.swift in Sources */,
+				225BCAF91E3C41870017FBC9 /* SessionBlock.swift in Sources */,
 				FA276E301E118E1A008C9AAD /* Sponsor.swift in Sources */,
+				225BCAFB1E3C47490017FBC9 /* Session.swift in Sources */,
 				FA276E2F1E118E1A008C9AAD /* Speaker.swift in Sources */,
+				225BCB051E3CABD70017FBC9 /* Location.swift in Sources */,
 				FA276E2D1E118E1A008C9AAD /* Presentation.swift in Sources */,
-				FA276E2C1E118E1A008C9AAD /* Organizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +424,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225BCB0F1E3DDE140017FBC9 /* NYC2016Sessions.swift in Sources */,
 				FA276E141E118B30008C9AAD /* TrySwiftDataTests.swift in Sources */,
+				225BCB131E3DFD240017FBC9 /* NYC2016Venues.swift in Sources */,
+				225BCB0B1E3DC2BE0017FBC9 /* NYC2016SessionBlocks.swift in Sources */,
+				225BCB011E3C4C360017FBC9 /* NYC2016Speakers.swift in Sources */,
+				225BCB071E3DBDF90017FBC9 /* NYC2016ConferenceDays.swift in Sources */,
+				225BCB0D1E3DD6CE0017FBC9 /* NYC2016Sponsors.swift in Sources */,
+				225BCAF51E3BA9310017FBC9 /* NYC2016Presentations.swift in Sources */,
+				225BCAF11E3B984A0017FBC9 /* NYC2016GenerateData.swift in Sources */,
+				225BCB111E3DE8170017FBC9 /* NYC2016Locations.swift in Sources */,
+				225BCAF01E3B984A0017FBC9 /* GenerateCommon.swift in Sources */,
+				225BCB031E3C93060017FBC9 /* NYC2016Events.swift in Sources */,
+				225BCAFF1E3C4C020017FBC9 /* NYC2016Conferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +566,7 @@
 		};
 		FA276E1A1E118B30008C9AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E21355D797850E2AF046AE /* Pods-TrySwiftData.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -402,6 +586,7 @@
 		};
 		FA276E1B1E118B30008C9AAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C50BB2284E5199F2963775 /* Pods-TrySwiftData.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -421,6 +606,7 @@
 		};
 		FA276E1D1E118B30008C9AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD7E277032D545B2F1DFDFB /* Pods-TrySwiftDataTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrySwiftDataTests/Info.plist;
@@ -433,6 +619,7 @@
 		};
 		FA276E1E1E118B30008C9AAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17F7F5C3E6669C5B75F8B16 /* Pods-TrySwiftDataTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrySwiftDataTests/Info.plist;
@@ -462,6 +649,7 @@
 				FA276E1B1E118B30008C9AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA276E1C1E118B30008C9AAD /* Build configuration list for PBXNativeTarget "TrySwiftDataTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +658,7 @@
 				FA276E1E1E118B30008C9AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
