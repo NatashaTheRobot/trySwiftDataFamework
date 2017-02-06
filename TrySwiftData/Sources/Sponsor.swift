@@ -19,6 +19,7 @@ import RealmSwift
 
 public class Sponsor: Object {
     open dynamic var name: String?
+    open dynamic var nameJP: String?
     open dynamic var url: String?
     open dynamic var displayURL: String?
     open dynamic var twitter: String?

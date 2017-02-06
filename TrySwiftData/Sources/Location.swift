@@ -11,4 +11,5 @@ import RealmSwift
 
 public class Location: Object {
     open dynamic var name: String?
+    open dynamic var nameJP: String?
 }

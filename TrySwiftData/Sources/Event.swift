@@ -10,7 +10,9 @@ import RealmSwift
 
 public class Event: Object {
     open dynamic var title: String?
+    open dynamic var titleJP: String?
     open dynamic var logo: String?
     open dynamic var location: String?
+    open dynamic var locationJP: String?
     open dynamic var website: String?
 }

@@ -12,10 +12,12 @@ import UIKit
 public class Speaker: Object {
     open dynamic var id: Int = 0
     open dynamic var name: String = "TBD"
+    open dynamic var nameJP: String = "TBD"
     open dynamic var twitter: String = "TBD"
     open dynamic var imageName: String? = nil
     open dynamic var imagePath: String? = nil
     open dynamic var bio: String = "TBD"
+    open dynamic var bioJP: String = "TBD"
     open dynamic var hidden: Bool = false
     
     

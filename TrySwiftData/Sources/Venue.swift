@@ -11,7 +11,9 @@ import Contacts
 
 public class Venue: Object {
     open dynamic var title: String?
+    open dynamic var titleJP: String?
     open dynamic var address: String?
+    open dynamic var addressJP: String?
     open dynamic var website: String?
     open dynamic var twitter: String?
     open dynamic var logo: String?

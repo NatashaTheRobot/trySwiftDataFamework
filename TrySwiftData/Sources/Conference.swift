@@ -14,6 +14,7 @@ public class Conference: Object {
     open dynamic var imageName: String?
     open dynamic var imageURL: String?
     open dynamic var conferenceDescription: String?
+    open dynamic var conferenceDescriptionJP: String?
     open dynamic var venue: Venue?
     open dynamic var organizer: Speaker?
 }

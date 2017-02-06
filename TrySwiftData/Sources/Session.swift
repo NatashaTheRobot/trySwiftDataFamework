@@ -14,6 +14,7 @@ import RealmSwift
     case breakfast
     case announcement
     case talk
+    case lightningTalk
     case sponsoredDemo
     case coffeeBreak
     case lunch
@@ -27,6 +28,9 @@ public class Session: Object {
 
     /** The title of this session (if not provided by any child objects) */
     open dynamic var title: String?
+
+    /** The Japanese title of this session (if not provided by any child objects) */
+    open dynamic var titleJP: String?
 
     /** For special cases, the name of the image to show for this session. */
     open dynamic var imageName: String?
@@ -165,6 +169,8 @@ public class Session: Object {
                 return "📣"
             case .talk:
                 return "Presentation"
+        case .lightningTalk:
+                return "Lightning Talk"
             case .sponsoredDemo:
                 return "Demo"
             case .officeHours:
