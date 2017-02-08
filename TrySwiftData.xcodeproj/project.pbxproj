@@ -23,6 +23,7 @@
 		225BCB0F1E3DDE140017FBC9 /* NYC2016Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB0E1E3DDE140017FBC9 /* NYC2016Sessions.swift */; };
 		225BCB111E3DE8170017FBC9 /* NYC2016Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB101E3DE8170017FBC9 /* NYC2016Locations.swift */; };
 		225BCB131E3DFD240017FBC9 /* NYC2016Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */; };
+		229372131E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229372121E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift */; };
 		7823C4FC9E139EB5691B74D9 /* Pods_TrySwiftDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D0DFE8BFFEEEA7588AAC3 /* Pods_TrySwiftDataTests.framework */; };
 		E411BF3BED8F75825AC7BD7A /* Pods_TrySwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E356824A1BEF0FBBEEB7C41A /* Pods_TrySwiftData.framework */; };
 		FA276E0F1E118B30008C9AAD /* TrySwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA276E051E118B2F008C9AAD /* TrySwiftData.framework */; };
@@ -65,6 +66,7 @@
 		225BCB0E1E3DDE140017FBC9 /* NYC2016Sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Sessions.swift; sourceTree = "<group>"; };
 		225BCB101E3DE8170017FBC9 /* NYC2016Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Locations.swift; sourceTree = "<group>"; };
 		225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYC2016Venues.swift; path = "TrySwiftDataTests/RealmGeneration/NYC-2016/NYC2016Venues.swift"; sourceTree = SOURCE_ROOT; };
+		229372121E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Object+LocalizedProperty.swift"; sourceTree = "<group>"; };
 		69C50BB2284E5199F2963775 /* Pods-TrySwiftData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData/Pods-TrySwiftData.release.xcconfig"; sourceTree = "<group>"; };
 		69E21355D797850E2AF046AE /* Pods-TrySwiftData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData/Pods-TrySwiftData.debug.xcconfig"; sourceTree = "<group>"; };
 		B17F7F5C3E6669C5B75F8B16 /* Pods-TrySwiftDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftDataTests/Pods-TrySwiftDataTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 		FA276E1F1E118E1A008C9AAD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				229372121E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift */,
 				FA276E211E118E1A008C9AAD /* Conference.swift */,
 				225BCAF61E3C410A0017FBC9 /* ConferenceDay.swift */,
 				225BCAF81E3C41870017FBC9 /* SessionBlock.swift */,
@@ -414,6 +417,7 @@
 				225BCAF91E3C41870017FBC9 /* SessionBlock.swift in Sources */,
 				FA276E301E118E1A008C9AAD /* Sponsor.swift in Sources */,
 				225BCAFB1E3C47490017FBC9 /* Session.swift in Sources */,
+				229372131E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift in Sources */,
 				FA276E2F1E118E1A008C9AAD /* Speaker.swift in Sources */,
 				225BCB051E3CABD70017FBC9 /* Location.swift in Sources */,
 				FA276E2D1E118E1A008C9AAD /* Presentation.swift in Sources */,

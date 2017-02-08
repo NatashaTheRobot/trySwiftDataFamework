@@ -12,12 +12,12 @@ import UIKit
 public class Speaker: Object {
     open dynamic var id: Int = 0
     open dynamic var name: String = "TBD"
-    open dynamic var nameJP: String = "TBD"
+    open dynamic var nameJP: String?
     open dynamic var twitter: String = "TBD"
     open dynamic var imageName: String? = nil
     open dynamic var imagePath: String? = nil
     open dynamic var bio: String = "TBD"
-    open dynamic var bioJP: String = "TBD"
+    open dynamic var bioJP: String?
     open dynamic var hidden: Bool = false
     
     
@@ -28,10 +28,18 @@ public class Speaker: Object {
     public override static func indexedProperties() -> [String] {
         return ["name", "hidden"]
     }
-    
+
     public class var speakers: Results<Speaker> {
         let realm = try! Realm()
         return realm.objects(Speaker.self).filter("hidden == false").sorted(byKeyPath: "name")
+    }
+
+    public var localizedName: String {
+        return self.localizedString(for: name, japaneseString: nameJP)
+    }
+
+    public var localizedBio: String {
+        return self.localizedString(for: bio, japaneseString: bioJP)
     }
 
     public func getImage() -> UIImage {

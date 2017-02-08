@@ -57,7 +57,7 @@ public class Session: Object {
         switch self.type {
         case .workshop, .meetup, .party:
             if let event = event {
-                return event.title!
+                return event.localizedTitle
             }
             return ""
         case .talk:
@@ -66,7 +66,7 @@ public class Session: Object {
             }
             return ""
         case .sponsoredDemo:
-            return "Sponsored Demo"
+            return NSLocalizedString("Sponsored Demo", comment: "")
         case .coffeeBreak:
             if let sponsor = sponsor {
                 return "☕️ Break, by \(sponsor.name)"

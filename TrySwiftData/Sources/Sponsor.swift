@@ -18,11 +18,15 @@ import RealmSwift
 }
 
 public class Sponsor: Object {
-    open dynamic var name: String?
+    open dynamic var name: String = ""
     open dynamic var nameJP: String?
     open dynamic var url: String?
     open dynamic var displayURL: String?
     open dynamic var twitter: String?
     open dynamic var logo: String?
     open dynamic var level: SponsorLevel = .event
+
+    public var localizedName: String {
+        return self.localizedString(for: name, japaneseString: nameJP)
+    }
 }

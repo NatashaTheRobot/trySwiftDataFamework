@@ -10,9 +10,9 @@ import RealmSwift
 import Contacts
 
 public class Venue: Object {
-    open dynamic var title: String?
+    open dynamic var title: String = ""
     open dynamic var titleJP: String?
-    open dynamic var address: String?
+    open dynamic var address: String = ""
     open dynamic var addressJP: String?
     open dynamic var website: String?
     open dynamic var twitter: String?
@@ -20,4 +20,12 @@ public class Venue: Object {
     open dynamic var wifiNetworkName: String?
     open dynamic var wifiUsername: String?
     open dynamic var wifiPassword: String?
+
+    public var localizedTitle: String {
+        return self.localizedString(for: title, japaneseString: titleJP)
+    }
+
+    public var localizedAddress: String {
+        return self.localizedString(for: address, japaneseString: addressJP)
+    }
 }
