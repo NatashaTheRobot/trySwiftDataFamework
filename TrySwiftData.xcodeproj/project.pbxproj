@@ -24,6 +24,17 @@
 		225BCB111E3DE8170017FBC9 /* NYC2016Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB101E3DE8170017FBC9 /* NYC2016Locations.swift */; };
 		225BCB131E3DFD240017FBC9 /* NYC2016Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */; };
 		229372131E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229372121E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift */; };
+		22F0E3331E5031BE0060EA9F /* TKO2017ConferenceDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3281E5031BE0060EA9F /* TKO2017ConferenceDays.swift */; };
+		22F0E3341E5031BE0060EA9F /* TKO2017Conferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3291E5031BE0060EA9F /* TKO2017Conferences.swift */; };
+		22F0E3351E5031BE0060EA9F /* TKO2017Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E32A1E5031BE0060EA9F /* TKO2017Events.swift */; };
+		22F0E3361E5031BE0060EA9F /* TKO2017GenerateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E32B1E5031BE0060EA9F /* TKO2017GenerateData.swift */; };
+		22F0E3371E5031BE0060EA9F /* TKO2017Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E32C1E5031BE0060EA9F /* TKO2017Locations.swift */; };
+		22F0E3381E5031BE0060EA9F /* TKO2017Presentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E32D1E5031BE0060EA9F /* TKO2017Presentations.swift */; };
+		22F0E3391E5031BE0060EA9F /* TKO2017SessionBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E32E1E5031BE0060EA9F /* TKO2017SessionBlocks.swift */; };
+		22F0E33A1E5031BE0060EA9F /* TKO2017Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E32F1E5031BE0060EA9F /* TKO2017Sessions.swift */; };
+		22F0E33B1E5031BE0060EA9F /* TKO2017Speakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3301E5031BE0060EA9F /* TKO2017Speakers.swift */; };
+		22F0E33C1E5031BE0060EA9F /* TKO2017Sponsors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3311E5031BE0060EA9F /* TKO2017Sponsors.swift */; };
+		22F0E33D1E5031BE0060EA9F /* TKO2017Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3321E5031BE0060EA9F /* TKO2017Venues.swift */; };
 		7823C4FC9E139EB5691B74D9 /* Pods_TrySwiftDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D0DFE8BFFEEEA7588AAC3 /* Pods_TrySwiftDataTests.framework */; };
 		E411BF3BED8F75825AC7BD7A /* Pods_TrySwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E356824A1BEF0FBBEEB7C41A /* Pods_TrySwiftData.framework */; };
 		FA276E0F1E118B30008C9AAD /* TrySwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA276E051E118B2F008C9AAD /* TrySwiftData.framework */; };
@@ -67,6 +78,17 @@
 		225BCB101E3DE8170017FBC9 /* NYC2016Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Locations.swift; sourceTree = "<group>"; };
 		225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYC2016Venues.swift; path = "TrySwiftDataTests/RealmGeneration/NYC-2016/NYC2016Venues.swift"; sourceTree = SOURCE_ROOT; };
 		229372121E4AFA3C00B2E2A1 /* Object+LocalizedProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Object+LocalizedProperty.swift"; sourceTree = "<group>"; };
+		22F0E3281E5031BE0060EA9F /* TKO2017ConferenceDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017ConferenceDays.swift; sourceTree = "<group>"; };
+		22F0E3291E5031BE0060EA9F /* TKO2017Conferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Conferences.swift; sourceTree = "<group>"; };
+		22F0E32A1E5031BE0060EA9F /* TKO2017Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Events.swift; sourceTree = "<group>"; };
+		22F0E32B1E5031BE0060EA9F /* TKO2017GenerateData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017GenerateData.swift; sourceTree = "<group>"; };
+		22F0E32C1E5031BE0060EA9F /* TKO2017Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Locations.swift; sourceTree = "<group>"; };
+		22F0E32D1E5031BE0060EA9F /* TKO2017Presentations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Presentations.swift; sourceTree = "<group>"; };
+		22F0E32E1E5031BE0060EA9F /* TKO2017SessionBlocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017SessionBlocks.swift; sourceTree = "<group>"; };
+		22F0E32F1E5031BE0060EA9F /* TKO2017Sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Sessions.swift; sourceTree = "<group>"; };
+		22F0E3301E5031BE0060EA9F /* TKO2017Speakers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Speakers.swift; sourceTree = "<group>"; };
+		22F0E3311E5031BE0060EA9F /* TKO2017Sponsors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Sponsors.swift; sourceTree = "<group>"; };
+		22F0E3321E5031BE0060EA9F /* TKO2017Venues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Venues.swift; sourceTree = "<group>"; };
 		69C50BB2284E5199F2963775 /* Pods-TrySwiftData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData/Pods-TrySwiftData.release.xcconfig"; sourceTree = "<group>"; };
 		69E21355D797850E2AF046AE /* Pods-TrySwiftData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData/Pods-TrySwiftData.debug.xcconfig"; sourceTree = "<group>"; };
 		B17F7F5C3E6669C5B75F8B16 /* Pods-TrySwiftDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftDataTests/Pods-TrySwiftDataTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				225BCAED1E3B984A0017FBC9 /* GenerateCommon.swift */,
+				22F0E3271E5031BE0060EA9F /* TKO-2017 */,
 				225BCAEE1E3B984A0017FBC9 /* NYC-2016 */,
 			);
 			path = RealmGeneration;
@@ -134,6 +157,24 @@
 				225BCB121E3DFD240017FBC9 /* NYC2016Venues.swift */,
 			);
 			path = "NYC-2016";
+			sourceTree = "<group>";
+		};
+		22F0E3271E5031BE0060EA9F /* TKO-2017 */ = {
+			isa = PBXGroup;
+			children = (
+				22F0E32B1E5031BE0060EA9F /* TKO2017GenerateData.swift */,
+				22F0E3281E5031BE0060EA9F /* TKO2017ConferenceDays.swift */,
+				22F0E3291E5031BE0060EA9F /* TKO2017Conferences.swift */,
+				22F0E32A1E5031BE0060EA9F /* TKO2017Events.swift */,
+				22F0E32C1E5031BE0060EA9F /* TKO2017Locations.swift */,
+				22F0E32D1E5031BE0060EA9F /* TKO2017Presentations.swift */,
+				22F0E32E1E5031BE0060EA9F /* TKO2017SessionBlocks.swift */,
+				22F0E32F1E5031BE0060EA9F /* TKO2017Sessions.swift */,
+				22F0E3301E5031BE0060EA9F /* TKO2017Speakers.swift */,
+				22F0E3311E5031BE0060EA9F /* TKO2017Sponsors.swift */,
+				22F0E3321E5031BE0060EA9F /* TKO2017Venues.swift */,
+			);
+			path = "TKO-2017";
 			sourceTree = "<group>";
 		};
 		626D5797816391ACCA93916A /* Pods */ = {
@@ -431,15 +472,26 @@
 				225BCB0F1E3DDE140017FBC9 /* NYC2016Sessions.swift in Sources */,
 				FA276E141E118B30008C9AAD /* TrySwiftDataTests.swift in Sources */,
 				225BCB131E3DFD240017FBC9 /* NYC2016Venues.swift in Sources */,
+				22F0E3361E5031BE0060EA9F /* TKO2017GenerateData.swift in Sources */,
 				225BCB0B1E3DC2BE0017FBC9 /* NYC2016SessionBlocks.swift in Sources */,
+				22F0E3341E5031BE0060EA9F /* TKO2017Conferences.swift in Sources */,
 				225BCB011E3C4C360017FBC9 /* NYC2016Speakers.swift in Sources */,
+				22F0E33D1E5031BE0060EA9F /* TKO2017Venues.swift in Sources */,
+				22F0E3381E5031BE0060EA9F /* TKO2017Presentations.swift in Sources */,
+				22F0E3351E5031BE0060EA9F /* TKO2017Events.swift in Sources */,
 				225BCB071E3DBDF90017FBC9 /* NYC2016ConferenceDays.swift in Sources */,
 				225BCB0D1E3DD6CE0017FBC9 /* NYC2016Sponsors.swift in Sources */,
 				225BCAF51E3BA9310017FBC9 /* NYC2016Presentations.swift in Sources */,
 				225BCAF11E3B984A0017FBC9 /* NYC2016GenerateData.swift in Sources */,
+				22F0E33B1E5031BE0060EA9F /* TKO2017Speakers.swift in Sources */,
+				22F0E33A1E5031BE0060EA9F /* TKO2017Sessions.swift in Sources */,
 				225BCB111E3DE8170017FBC9 /* NYC2016Locations.swift in Sources */,
 				225BCAF01E3B984A0017FBC9 /* GenerateCommon.swift in Sources */,
+				22F0E3371E5031BE0060EA9F /* TKO2017Locations.swift in Sources */,
+				22F0E33C1E5031BE0060EA9F /* TKO2017Sponsors.swift in Sources */,
 				225BCB031E3C93060017FBC9 /* NYC2016Events.swift in Sources */,
+				22F0E3331E5031BE0060EA9F /* TKO2017ConferenceDays.swift in Sources */,
+				22F0E3391E5031BE0060EA9F /* TKO2017SessionBlocks.swift in Sources */,
 				225BCAFF1E3C4C020017FBC9 /* NYC2016Conferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
