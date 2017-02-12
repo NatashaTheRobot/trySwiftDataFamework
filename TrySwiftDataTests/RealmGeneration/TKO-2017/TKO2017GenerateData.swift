@@ -16,15 +16,15 @@ class TrySwiftTKO2017GenerateData: XCTestCase {
         let realm = generateRealm(named: "tryswift-tokyo2017.realm")
 
         try! realm.write {
-            for conference in nyc2016Conferences {
+            for conference in tko2017Conferences {
                 realm.add(conference)
             }
 
-            for (_, sponsor) in nyc2016Sponsors {
+            for (_, sponsor) in tko2017Sponsors {
                 realm.add(sponsor)
             }
 
-            for conferenceDay in nyc2016ConferenceDays {
+            for conferenceDay in tko2017ConferenceDays {
                 realm.add(conferenceDay)
             }
         }
