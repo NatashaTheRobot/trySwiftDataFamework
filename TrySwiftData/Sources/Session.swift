@@ -89,7 +89,7 @@ public class Session: Object {
         switch self.type {
         case .meetup, .workshop, .party:
             if let sponsor = sponsor {
-                return sponsor.name!
+                return sponsor.name
             }
             return ""
         case .talk:
@@ -150,11 +150,11 @@ public class Session: Object {
     public var formattedLocation: String {
         switch self.type {
         case .workshop, .meetup:
-            return event!.location!
+            return event!.location
         case .party:
-            return venue!.address!
+            return venue!.address
         default:
-            return location!.name!
+            return location!.name
         }
     }
 
