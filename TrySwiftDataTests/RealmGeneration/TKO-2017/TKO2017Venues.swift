@@ -11,26 +11,20 @@ import RealmSwift
 import TrySwiftData
 
 public let tko2017Venues: [String : Venue] = [
-    "axa" : {
+    "bellesalle-shinjuku" : {
         let venue = Venue()
-        venue.title = "AXA Event & Production Center"
-        venue.address = "787 Seventh Ave, New York, NY 10019"
-        venue.website = "axaeventproductioncenter.com"
-        venue.twitter = "AXACenter_NYC"
-        venue.logo = "axa"
-        venue.wifiNetworkName = "AXA Auditorium"
+        venue.title = "BELLESALLE Shinjuku Central Park"
+        venue.address = "Japan, 〒160-0023 Tōkyō-to,Shinjuku-ku,Nishishinjuku, 6 Chome−15, Nishishinjuku ６－１３－１"
+        venue.website = "bellesalle.co.jp"
+        venue.logo = "bellesalle"
         return venue
     }(),
-    "americanbeauty" : {
+    "bellesalle-kanda" : {
         let venue = Venue()
-        venue.title = "American Beauty NYC"
-        venue.address = "251 W 30th St, New York, NY 10001"
-        venue.website = "americanbeautynyc.com"
-        venue.twitter = "ambeauty_nyc"
-        venue.logo = "americanBar"
-        venue.wifiNetworkName = "American Beauty NYC"
-        venue.wifiUsername = "251W30_Internal"
-        venue.wifiPassword = "Slake251"
+        venue.title = "BELLESALLE Kanda"
+        venue.address = "Japan, 〒101-0053 Tōkyō-to, Chiyoda-ku, 千代田区Kanda Mitoshirochō, ７"
+        venue.website = "bellesalle.co.jp"
+        venue.logo = "bellesalle-kanda"
         return venue
     }()
 ]
